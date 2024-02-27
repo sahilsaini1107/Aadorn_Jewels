@@ -24,8 +24,9 @@ body
 // header css start
 
 .header
-    color: clr.$colorText
+    color: clr.$colorText2
     height: 10vh
+    text-decoration: none
     background-image:  url("../assets/images/bcg.png")
     display: flex
     align-items: center
@@ -33,9 +34,13 @@ body
     padding: 10px
     a
         text-decoration: none
+        color: clr.$colorText
         margin-left: 15px
         margin-right: 15px
+        &:hover
+            color: clr.$colorText2
     .logo
+        color: clr.$colorText
         margin-right: 3%
         font-weight: 600
     .inputbox
@@ -57,5 +62,9 @@ body
         align-items: center
         svg
             color: clr.$colorText
+            font-size: 18px
+        &:hover 
+            svg   
+                font-size: 20px
 
 // header css end

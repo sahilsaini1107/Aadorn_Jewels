@@ -9,11 +9,11 @@ const Header = () => {
   return (
     <nav className="header">
         <Link className="logo" to={"/"}>LOGO</Link>
-        <Link to={"/rings"}>Rings</Link>
-        <Link to={"/neckless"}>Neckless</Link>
+        <Link to={"/rings"}>Earrings</Link>
+        <Link to={"/bracelet"}>Bracelet</Link>
+        <Link to={"/latest"}>Pendant</Link>
         <Link to={"/latest"}>Latest</Link>
-        <Link to={"/latest"}>Latest</Link>
-        <Link to={"/latest"}>Latest</Link>
+        <Link to={"/latest"}>Category</Link>
         <span className="inputbox">
             <InputBase
                 style={{ flex: 1}}

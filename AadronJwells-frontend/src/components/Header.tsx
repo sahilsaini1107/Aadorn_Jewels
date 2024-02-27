@@ -1,7 +1,6 @@
 import { FiHeart, FiShoppingBag, FiUser, FiLogIn, FiSearch } from 'react-icons/fi';
 import { InputBase, IconButton } from '@mui/material';
 import { Link } from "react-router-dom"
-import { useState } from "react";
 
 const Header = () => {
 

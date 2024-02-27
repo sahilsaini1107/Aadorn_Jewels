@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Header = () => {
 
-  const [user, setUser] = useState("");
+  const user = "";
 
   return (
     <nav className="header">

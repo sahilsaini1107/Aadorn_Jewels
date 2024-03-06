@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import styles from "./Home.module.sass"
-import images from "../../assets/images/head.png"
+import images from "../../../public/images/head.png"
 const category = () => {
   return (
     <div className={styles.category_container}>
@@ -10,6 +10,18 @@ const category = () => {
       </div>
       
       <div className={styles.card_container}>
+          <div className={styles.card}>
+            <img src={images} alt="ring" />
+            <Link to={"/category"}><div className={styles.heading}>Rings</div></Link> 
+            <Link to={"/category"}><div className={styles.explo}>Explore</div></Link>
+          </div>
+
+          <div className={styles.card}>
+            <img src={images} alt="ring" />
+            <Link to={"/category"}><div className={styles.heading}>Rings</div></Link> 
+            <Link to={"/category"}><div className={styles.explo}>Explore</div></Link>
+          </div>
+
           <div className={styles.card}>
             <img src={images} alt="ring" />
             <Link to={"/category"}><div className={styles.heading}>Rings</div></Link> 

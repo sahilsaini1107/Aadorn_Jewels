@@ -1,11 +1,10 @@
 import styles from "./Home.module.sass"
-
-const testimonial = () => {
+const Handpicked = () => {
   return (
     <div className={styles.category_container}>
       <div className={styles.title}>
-        <h1>Testimonials</h1>
-        <p>Check out the reviews of our customers</p>
+        <h1>Handpicked Collection</h1>
+        <p>Handpicked the best designs for you!</p>
       </div>
       <div>
           <div>
@@ -15,4 +14,4 @@ const testimonial = () => {
   )
 }
 
-export default testimonial
+export default Handpicked

@@ -8,12 +8,18 @@
     background-color: clr.$colotTextLight
 
 .head
-    background-color: aqua
-    height:  70%
-    background-image: url("../../assets/images/head.png")
+    height:  85%
+    width: 100%
     display: flex
-    background-size: cover
-    background-position: center
+    object-fit: cover
+    .carousel
+        width: 100%
+        height: 100%
+    .carouselImage
+        width: 100%
+        height: 100%
+        object-fit: cover
+
 .expo
     background-color: #000000
 
@@ -30,7 +36,7 @@
 .card_container
     display: flex
     justify-content:  center
-    margin:  30px 30px 60px 30px
+    margin:  30px 20px 20px 20px
     flex-wrap: wrap
 
 .title
@@ -48,7 +54,7 @@
     width: 286px
     border-radius: 8px
     box-shadow: rgba(99, 99, 99, 99)
-    margin: 20px
+    margin: 10px
     img
         width: 100%
         height: 100%
